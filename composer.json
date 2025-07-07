@@ -1,0 +1,31 @@
+{
+    "description": "Gridy ID is a Multi-Factor authentication (MFA) API service & Authenticator application for Android, IOS, Windows, MacOS, Linux & Web. Use Gridy to replace your existing username/password authentication or integrate Gridy ID into your adaptive authentication workflow in minutes using our API service and clients.",
+    "keywords": [
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://gridy.io",
+    "license": "",
+    "authors": [
+        {
+            "name": "gridy.io",
+            "homepage": "https://gridy.io"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "autoload": {
+        "psr-4": { "GridyAPI\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "GridyAPI\\Client\\Test\\" : "test/" }
+    }
+}
